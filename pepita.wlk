@@ -12,6 +12,16 @@ object pepita {
 	method energia() {
 		return energia
 	}
+/*
+	method volar(distancia) {
+		if (self.puedeVolar(distancia)) {
+			energia -= 20 + 2 * distancia
+		} else {
+			assert.throwsException("No tiene suficiente energía para volar capo")
+		}
+	}
+	*/
+	
 }
 
 object alpiste {
